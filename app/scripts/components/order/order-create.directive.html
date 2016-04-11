@@ -1,0 +1,3 @@
+<h3>Create Order</h3>
+<order-form-directive order-attr="cntlr.orderOnCreate" on-state-change="cntlr.setButton(validState)"></order-form-directive>
+<button ng-disabled="!cntlr.isButtonEnabled" ng-click="cntlr.createOrder(cntlr.orderOnCreate)">Create Order</button>

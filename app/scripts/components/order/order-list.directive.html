@@ -1,0 +1,11 @@
+<div data-test="orderListDirective.row" class="row" ng-repeat="order in cntlr.orders">
+    <div class="col-xs-4">
+        <a href="#/orders/{{order.orderId}}">{{ order.orderId }}</a>
+    </div>
+    <div class="col-xs-4">
+        {{ order.orderName}}
+    </div>
+    <div class="col-xs-4">
+        {{ order.billAmount}}
+    </div>
+</div>
